@@ -1,0 +1,311 @@
+@function rpx($val) { // 解决rpx在webstrom格式化加空格的问题
+    @return $val * 1rpx;
+}
+
+.margin-0 {
+    margin: rpx(0);
+}
+
+.margin-xs {
+    margin: rpx(10);
+}
+
+.margin-sm {
+    margin: rpx(20);
+}
+
+.margin {
+    margin: rpx(30);
+}
+
+.margin-lg {
+    margin: rpx(40);
+}
+
+.margin-xl {
+    margin: rpx(50);
+}
+
+.margin-top-xs {
+    margin-top: rpx(10);
+}
+
+.margin-top-sm {
+    margin-top: rpx(20);
+}
+
+.margin-top {
+    margin-top: rpx(30);
+}
+
+.margin-top-lg {
+    margin-top: rpx(40);
+}
+
+.margin-top-xl {
+    margin-top: rpx(50);
+}
+
+.margin-right-xs {
+    margin-right: rpx(10);
+}
+
+.margin-right-sm {
+    margin-right: rpx(20);
+}
+
+.margin-right {
+    margin-right: rpx(30);
+}
+
+.margin-right-lg {
+    margin-right: rpx(40);
+}
+
+.margin-right-xl {
+    margin-right: rpx(50);
+}
+
+.margin-bottom-xs {
+    margin-bottom: rpx(10);
+}
+
+.margin-bottom-sm {
+    margin-bottom: rpx(20);
+}
+
+.margin-bottom {
+    margin-bottom: rpx(30);
+}
+
+.margin-bottom-lg {
+    margin-bottom: rpx(40);
+}
+
+.margin-bottom-xl {
+    margin-bottom: rpx(50);
+}
+
+.margin-left-xs {
+    margin-left: rpx(10);
+}
+
+.margin-left-sm {
+    margin-left: rpx(20);
+}
+
+.margin-left {
+    margin-left: rpx(30);
+}
+
+.margin-left-lg {
+    margin-left: rpx(40);
+}
+
+.margin-left-xl {
+    margin-left: rpx(50);
+}
+
+.margin-lr-xs {
+    margin-left: rpx(10);
+    margin-right: rpx(10);
+}
+
+.margin-lr-sm {
+    margin-left: rpx(20);
+    margin-right: rpx(20);
+}
+
+.margin-lr {
+    margin-left: rpx(30);
+    margin-right: rpx(30);
+}
+
+.margin-lr-lg {
+    margin-left: rpx(40);
+    margin-right: rpx(40);
+}
+
+.margin-lr-xl {
+    margin-left: rpx(50);
+    margin-right: rpx(50);
+}
+
+.margin-tb-xs {
+    margin-top: rpx(10);
+    margin-bottom: rpx(10);
+}
+
+.margin-tb-sm {
+    margin-top: rpx(20);
+    margin-bottom: rpx(20);
+}
+
+.margin-tb {
+    margin-top: rpx(30);
+    margin-bottom: rpx(30);
+}
+
+.margin-tb-lg {
+    margin-top: rpx(40);
+    margin-bottom: rpx(40);
+}
+
+.margin-tb-xl {
+    margin-top: rpx(50);
+    margin-bottom: rpx(50);
+}
+
+.padding-0 {
+    padding: rpx(0);
+}
+
+.padding-xs {
+    padding: rpx(10);
+}
+
+.padding-sm {
+    padding: rpx(20);
+}
+
+.padding {
+    padding: rpx(30);
+}
+
+.padding-lg {
+    padding: rpx(40);
+}
+
+.padding-xl {
+    padding: rpx(50);
+}
+
+.padding-top-xs {
+    padding-top: rpx(10);
+}
+
+.padding-top-sm {
+    padding-top: rpx(20);
+}
+
+.padding-top {
+    padding-top: rpx(30);
+}
+
+.padding-top-lg {
+    padding-top: rpx(40);
+}
+
+.padding-top-xl {
+    padding-top: rpx(50);
+}
+
+.padding-right-xs {
+    padding-right: rpx(10);
+}
+
+.padding-right-sm {
+    padding-right: rpx(20);
+}
+
+.padding-right {
+    padding-right: rpx(30);
+}
+
+.padding-right-lg {
+    padding-right: rpx(40);
+}
+
+.padding-right-xl {
+    padding-right: rpx(50);
+}
+
+.padding-bottom-xs {
+    padding-bottom: rpx(10);
+}
+
+.padding-bottom-sm {
+    padding-bottom: rpx(20);
+}
+
+.padding-bottom {
+    padding-bottom: rpx(30);
+}
+
+.padding-bottom-lg {
+    padding-bottom: rpx(40);
+}
+
+.padding-bottom-xl {
+    padding-bottom: rpx(50);
+}
+
+.padding-left-xs {
+    padding-left: rpx(10);
+}
+
+.padding-left-sm {
+    padding-left: rpx(20);
+}
+
+.padding-left {
+    padding-left: rpx(30);
+}
+
+.padding-left-lg {
+    padding-left: rpx(40);
+}
+
+.padding-left-xl {
+    padding-left: rpx(50);
+}
+
+.padding-lr-xs {
+    padding-left: rpx(10);
+    padding-right: rpx(10);
+}
+
+.padding-lr-sm {
+    padding-left: rpx(20);
+    padding-right: rpx(20);
+}
+
+.padding-lr {
+    padding-left: rpx(30);
+    padding-right: rpx(30);
+}
+
+.padding-lr-lg {
+    padding-left: rpx(40);
+    padding-right: rpx(40);
+}
+
+.padding-lr-xl {
+    padding-left: rpx(50);
+    padding-right: rpx(50);
+}
+
+.padding-tb-xs {
+    padding-top: rpx(10);
+    padding-bottom: rpx(10);
+}
+
+.padding-tb-sm {
+    padding-top: rpx(20);
+    padding-bottom: rpx(20);
+}
+
+.padding-tb {
+    padding-top: rpx(30);
+    padding-bottom: rpx(30);
+}
+
+.padding-tb-lg {
+    padding-top: rpx(40);
+    padding-bottom: rpx(40);
+}
+
+.padding-tb-xl {
+    padding-top: rpx(50);
+    padding-bottom: rpx(50);
+}
